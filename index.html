@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Keerthana SivaKumar</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Keerthana,</span><br></h1>
+                    <h3><span style="color:grey;">A Final Year Student at Velammal College of Engineering and Technology, Madurai</span></h3>
+                    <a href="#contact" class="button">Contact</a><h1><br></h1>
+                    <a href="assets/Keerthana K S_Resume.pdf" download class="resume__button button">Download Resume</a>
+
+                    <h1><br></h1>
+                    
+                    <div class="home__social">
+                        <a href="http://www.linkedin.com/in/keerthana-sivakumar-060a2322b" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://github.com/keerthana-kandhalu" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    </div>
+                </div>
+                   
+                        <div class="circular-image" style="height: 336px;margin-left: 160px;margin-bottom: 100px; width: 250px; margin-bottom: 20px;">
+                            <img src="assets/img/profile.jpg" alt="Circular Image">
+                        </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">About Me</h2>
+                        <p class="about__text">
+                            As a final year Computer Science Engineering student, 
+                            I'm passionate about developing technology to solve real-world problems. With proficiency in Java, C, 
+                            and HTML and CSS along with basics of React.
+                        <p class="about__text">
+                            Throughout my academic journey, I've honed my skills through various projects,
+                             specializing in web development, data analysis.
+                              I thrive in collaborative environments, eager to contribute and learn from others to innovate.
+                        </p>
+                        <p class="about__text">
+                            I'm a proactive learner, 
+                            constantly seeking to expand my knowledge and stay updated with the latest in technology.
+                             I'm excited about applying my skills to make a meaningful impact in the tech industry.                        </p>
+                        </p>          
+                    </div>                                     
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">Proficient in Various Programming Languages</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAArFJREFUSEu1kk9IFHEUx9/7zYzm7oxt4mVNIXcdO0R/qKhToEF/DkGXAme1iARBiAhM8CjhpUuB0EmIDvsvNrpEBBkaFWQkRASV7mhoYYLhpjurs+7M78UsGmLpbJvOcX7vfT/vfb8PYYs/3GJ9KBrgbU6ezETUp24DFgdoG5Zkw9duROt6twQgh/Q2JPyYjgVfbTrA0zR2GJG3Z2Jqq5u48/5PFima3smRzmEOzmAJ1qONPrBLXs8nambXgxUMkJv1HiA6QmReQFbWy2x+az5e/8Zti4IASijZSogdxlLpIVnK3gWgh0ZUTbiJF2yRV9NvIqNJI6LekUP6NDF2KhMOvN88QGj0AAA2ZaJqlxLSHxNAuTH1tRGeN1pukIIsckS8zXoHF+w4WZIoAh9DxhrT4cDLTQPkIdr4iUws0C+H9D4jRVfgiZp1/pc3jR5Fwh9z99WxtcB1N5C15B5EOJsDIWLmar9BAu18c9uwpKSV7aIl5gQlxzFt0cwOMyunfQ8sZFfNaGBiNWRdgNIyfoxz6gSiT4i0uLqJkP1EIgsZ60+HAyPOm6wlbwPgIyNWN1AQwCmqvPxZMU2pxZia7FsdqKKNVNrEahbi6junzhmGOB03ooEbAEgFA6BhUPRW1VxDIBkA9wJBBSJ4OeA0Az5kc/uegLhkM7F2IRJ8+7fAXa+o7OLIzm2LopFKBOfcLqYogFfTTyNCFxDMAkLFsogfkOJGpK57rSWuV+S79MVn5ezrBPSCUPqwEN71Pd90ngRPqb5fQjs1F9w9Ad3IV8ScrLJLJVUrgW+YgacleVDg2OMUEcAoEM4Ccvbn+mgjgUkIWQJKCcCGLCYYvwdabtg4g4ZB0VNdvY8BlOeBnIkA3M8Q/URQBQh+IJgnwhlAGMhEg89cLSomyI16XK/of4G/ABl9EChRxoqYAAAAAElFTkSuQmCC"/>
+                                <span class="skills__name">Java</span>
+                            </div>
+                            <div class="skills__bar skills__html" style="width: 80%;">
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAWxJREFUSEvtlM1Kw0AUhc9tKIhtd4q6cGGbWJ+hSvsUFULcCSJuBV9DXIgLwYXSdpGnsIrPYEltXfqHC9NsGpORsYkkaf6olG4625k539xzz1zClBdNWR9zQKLDs7UoV++vIvstG03pNOypBaV7Yg+Fa0PdeIkqJbICLk5Zqw1AIsKB3hAvvSJ5WTsC0TkAjZlCNQoSCnDE7wCIAHqMZSpGq/jqBeTk3gqR/QCgCKALk1UGqvQerGQMkK9ry8gSv8jFO4xlakFxV8QPYY8wUQ1CfICRONoAbXFxYtaO3ip/xEXFgdwCKAPjkD/AJOIuuCB3lhgJ9y4kYy5sf6nrn3x/KgCvVf+2KPj6YB8SmxzXhyT/fRb5Ijj6A25MQ5OUJkGRAL7h/AWejk0i2tcbpSvfR1OeDsHYxW9yBKoNbsS3sLTFzqLFvec1sq1do1k6C7ucU7rHGAqNiUZF4phMeWC20zTlI2OPzStIdPEHbn2/GfPttnUAAAAASUVORK5CYII="/>
+                                <span class="skills__name">C</span>
+                            </div>
+                            <div class="skills__bar skills__html" style="width: 60%;">
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAApJJREFUSEvV1U9IFFEcB/Dvb1pTdFapTgUStTMlZESlYAWVlAUVQYHhzhoZHoJACLrooaA/CAXVxUNEWEHz3Iq6GAUpEUKEdgiMoto3FlGdoqx9rpDO/Go2i83W2UUw6B3nfX/z+T3eezOEGR40w+/Hvwd0Sw4CWD7NlQ0qYazIrP1rBbolewFsmibQq4RRFwzEpAAjOj2AbSXMxmAgmjgHokN+iAi7mfhzIOZpcwG+mc6DziZF5HAgEI4l2pipPR1irlRd5rMgQN8rK+Hi6QTQmhSRU8FA1NnPxJ3pkMa16qr5IGw5Zxi8egqoFMDKdD+EphHbuJJjBc4OZu5OhwgNyjau6Za8DqA+1754hG0p27gbCBTHnGqNeWAi1KKE0RFuHFrKcOdnBVirB/NBf87zeFUqbj4JBIqsoYUheG8mQieVMI4EdV4SddqJuM3PuMTlo7b5LhBA0+si/Zs7+nOT8R4EmQ3wQKdTInKnxHIuErjZzyh9eDYuVI0FAwB0S34BUMpE/UReK1xtPYiP/VHIvDPZZXaXxORtYmwH+JMS5rzJzWT9FumW9LuO+MCIHanRLVkL4H5mseZ5NV/jS/rDlnzMQBWAl0oYFfkBMfkQjLUApBKG6Rfp0cQyEK0jsMuER8o2n6efW/ItgHKA+pSIbMgPiMpbIOwCkALQ7Hnjfal4xYfM4uKGFwtoVsFGYr4MoADADSWMPfkBMXkejAOTwgkG9WngAgbWAEivLGN0KGG05AdY8viPUxd4PLOcrKNKGCfyAsqsV4tdon0MbSsxV/sfjSnuggdgAMT3Qm7o0nB80a/78zue8482p94pGwthM4i3MKjO32SAe4iop7BwvPdjZ0Uy6CLmBIKK85n7/4Hvi7v0GewNlc4AAAAASUVORK5CYII="/>
+                                <span class="skills__name">HTML</span>
+                            </div>
+                            <div class="skills__bar skills__html" style="width: 75%;">
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAplJREFUSEu9lU1IVFEYht/vjqk5dyiwVSBUc4aQXGgQLSQyChOkH4LMe5VCiXaZhFQQ7YTICIxqJYiLPNdwEWkoGKG5ciFpFCXNnaDfTVHUnDFM5351xylm/LkzCXp2l/N+5znP+buEVW60yuNj7QG6GbkNcMkKzZ4rKc6m1i4y8JuRPgIfWhGA0acsccQToJt2B4DTKwR0KEuc8QbU2a1gXE6EmNtB+O4JY2wAUXMy06qkuJLJoAnAzcT4mlYau7vtmRegoDZcpmn0dH5CaFKWuOUNMMI1ILo3H6JJgJczmFRSNPsNu4oIg/N5rlEy1OsNqA9XwKHhjHvAuK8scSxgRBqYuDO5pBXKCj3xBpx4XQyf9jIdwFMAklZJN2AiKkMPAkbkEhNfTfiyrzhqbXWz/9qiYxo4+aqQ59Z9SQfQqJLBvUtZ6abdDuCc26fN5hX+6C366gkAmHQz8gtAzt8gg2IEHk8tdEBt0zI4oJu2BaAWwKySwTzXIwMA0E37I4DNACag8XnEqRyE1rRC5sNRK9SvG/YwCBV/7s4HJUXRQssl3yLdjEwAXOqeIiWDZYH6N3vYcUbTDBzaNd0THNdN213z7e5klBQ7swIE6uxBZlQR8DYqxRa3SDfCO0BUTkRzDGdMdYcSB0E37W8ANhIwEJWiOjuAYXcx4RSAOQB3GPQw9undCEb2ud/A8Re5Bbn5+zXGUQCJp4GBrpgUDVkB/IZ9jQgXFoSjAPeDKIeZqgnsT+1nRlvMEhezA5h2CwHXM162lAATWmLd4kZWgPW1dpFPo0YQV4KxG4BvGVgcwBhAj+IOd/7sEe+zAqSGNjVOBWZmcg4wcJCZKgkcB9EQsTOUPzvz+HNvifIyXftf5v+sezbZVTf4DVck9BmZz9Y7AAAAAElFTkSuQmCC"/>
+                                <span class="skills__name">CSS</span>
+                            </div>
+                            <div class="skills__bar skills__html" style="width: 60%;">
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAX5JREFUSEvtlTsvBFEUx3/nomBXrSCKfUgURJQb8SgJUZF9dMJnINEoSHyHbc2gU0i2XInIRiQKlWRniU7NriiYIxOPLMvumGSiccubc8/vvP7nCiEfCdk/TQHdaSflGlkSdByIA+YtIBdwFDluc5/zd3sDpz8F+i2gK1uZMbAFOuInQ4EzhdWqnSh+tW8ARHKVrKhafhx/sXFdYfbBShTq7xsA0axzC/QEAAB6WbWTg60AGsz566uqnfgU9HcZhA64AfqDZKHIdc2Ox5qXKFNeRGQ/AMAVkfl7K37YFNCZK/cJMmSUbWDYJ6gErD9hrh7tmFeBj9PYg5yzX7XiaRDtzlTGEF1RSL0J7d3+GbQMcuQazT/sJM9Z0LZIh3NQs5NzLadIoOCqWavtxi78ZOApXg2bwJSfKapv8okKefMkpfvBmMOGeCsCJovt0d6+AdRMgC4Do971f5O9bfrfZIiGrWRv3LpyznQQJfv6cOqF9Ssl/6DIv/30/ayJVjYv4nPWGUoBkz8AAAAASUVORK5CYII="/>
+                                <span class="skills__name">SQL</span>
+                            </div>
+                            <div class="skills__bar skills__html" style="width: 80%;">
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAA/tJREFUSEvFlWtsFFUUx/9nZnZp2dkWFR9pQFJ3plQkPgIxYECEGBMB/SBssFPfkhqCBo2alA8QEr4YqWJqNKFaTCg7bVLDBxNiAhiaUKMhJW1MCXR3tiUUqNGEor3bx+7MPTpjty2wjWsI8X6cc//nd849jyHc5kO32T9mBZS/fL7S9dRGYhqSTE2jbbGumcGU1aZWSElvALhXY3XHtbbKC4WCnRUQtZzTDN4Hwj3E9CqI+rQs3nZLsxq72gGAKsB8GITfAXpP2MYTRQMi8YH7KOTZwjbWBaI9rOh9zicgeh5ACIRDIhHbBRD7Zr3W+TGUpfXD7bE/boQUzKB8SyrmKbRPtBovTAleGyjRs16SAZnJjVehfWk2b9Ot1DGo9JJoMX4rClAWH7xThiaOCttY+Y+ASbfS3zK4UyEKMbBMJIwt04B0txiWK/C9OVEUIEjbcvrAvIuhPErEmwDMA3Bu0sESgK4y4wgR/wLCbpEwlvx7DeK9YV2bsxWgbSDcT6BmsDzJRDvFlcEn0bHWDZw8dVLTKxb+TOC9DGUtIF8H00Uo9IWIDDejaXkuD5uqQbmVfMCFeoJItqgc/kxybo0EP0dEc6Xkj0fbzO5oTareF460mh+VWf2PS5LvE2PCA7WFoP3ksvshEW/2iNeNJcxL/t0pgG45nRLYMWobZwJ6XVcokpk3oAA9IwljY8RKfU2gN4OKgJsztrlVt5zjTKjOXB6szGcXrUmvYpK7hW0+cyMgKWyjauY76paTBKNDtBp1uuWcArBq0t4pbGN11EodZGClsM0Hp3VBQ5wTtlF9HSBak64HeP5I9NpO/w39SfZc7TsomI8sP4ww1oCVpsARyTrOap0U8k4BnHVV5dnxlthF+DUMlzSw5AuZVvPT6wBB59Q4b4FQR6AOSXQXwD0EjIP5EWEb22ZmF7FSB0HKCTBXAHiIgD/9DAn85YhtNt9U5ClxvDcc0Uo3EXEjgLNgyoJ4KQHHGTwQREVKDMyrGeS3cti3g7FdDF06MtVpkw4L7yJ/NST7zwg79hj8CXblBpb4nFi+qxApHmE/MW0Xw/KoP1y6le4O7hY4BQGltakFGtOBEdvYkNdErPTTxLIBCqkgfkccNjumJ/k/ropgJkhpzCSMjXknpS86C1UFXX9PrfRUb/nYocWXpwHOD5xTazPtlb8Wtyrig6V6aKJP5OYsBhZko5qznom+AvFeZoQJVM/gVzK2cezu+NnImFZyXrixRWgnrzhAsItSewDaDMDvktNQ8YFoMXp9B3MtZ5nC2A8FJhhXGfgmYxsNRdcgf9F3BOkOjbZVXykkLrH6F6lw78jYVT2F7DfNwWyXbuX7//fTv5WoZ2r/AtrVtSjvejqkAAAAAElFTkSuQmCC"/>
+                                <span class="skills__name">React JS</span>
+                            </div>
+                            <div class="skills__bar skills__html" style="width: 60%;">
+                            </div>
+                        </div>
+
+                        
+                </div>
+                <div>              
+                    <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <a href="https://github.com/keerthana-kandhalu/Pharmacy_management" class="work__img" target="_blank"> 
+                        <img src="assets\img\pharmacy.JPG" style="height: 100%;width: fit-content;" alt="Project Screenshot"> 
+                    </a>
+
+                    <a href="https://github.com/keerthana-kandhalu/sample_codes/blob/main/dashboard-simple.html" class="work__img">
+                        <img src="assets\img\cssdashboard.JPG"  style="width: fit-content; height:100%;" alt="Project Screenshot">
+                    </a>
+                    <a href="https://github.com/keerthana-kandhalu/sample_codes/blob/main/Login.html" class="work__img">
+                        <img src="assets/img/login.jpg" alt="">
+                    </a>
+                    <a href="https://keerthana-kandhalu.github.io/Weighty-E-Commerce/#top"  class="work__img">
+                        <img src="assets/img/ecommercewebsite.JPG" style="height: 300px;" alt="">
+                    </a>
+                    <a href="https://github.com/keerthana-kandhalu/RandomUser" class="work__img">
+                        <img src="assets/img/randomuser.JPG" alt="">
+                    </a>
+                    <a href="assets/cirrhosis (1).pdf" class="work__img">
+                        <img src="assets/img/cirrhosis.JPG" alt="">
+                    </a>
+                </div>
+            </section>
+                        <!-- Work Experience Section -->
+            <section class="skills section" id="work-experience">
+                <h2 class="section-title">Work Experience</h2>
+
+                <!-- Internship Details -->
+                <div class="work__container bd-grid" >
+                    <div>
+                        <h3 class="internship__title">MERN Stack with Cloud Computing</h3>
+                        <p class="internship__company"><b>Reccsar Private Limited, Madurai</b></p>
+                        <p class="internship__duration"><b>July 2023</b> </p>
+                    
+                    <ul class="internship__responsibilities">
+                        <li>Assisted in the development of web applications using HTML, CSS, and JavaScript.</li>
+                        <li>Participated in team meetings and contributed to project discussions.</li>
+                        <li>Learnt the basic fundamentals of AWS.</li>
+                        <li>Participated in Idea pitching of StartUp TamilNadu.</li>
+                    </ul>
+                </div>
+                <div><img src="assets/img/aws.png"><img src="assets/img/mern.png">
+                </div>
+                <div style="width: fit-content;"><img src="assets/img/reccsar.jpg"></div>
+                </div>
+            </section>
+
+            <!-- Certification Section -->
+        
+            <section class="work section" id="work">
+                <h2 class="section-title">Certifications</h2>
+
+                <div class="work__container bd-grid">
+                     <div>
+                        <img src="assets/img/greatlearning.JPG" style="height: 100%;width: fit-content;" alt="Project Screenshot">
+                        <p class="certificate__title">Programming in Java- Great Learning</p> 
+                    </div>
+                    <div>
+                        <a href="https://coursera.org/verify/professional-cert/NCZT8JM24H43">
+                            <img src="assets/img/dataanalytics.JPG" alt="Certificate Thumbnail" style="height: 100%;"  class="certificate__thumbnail">
+                        </a>
+                            <p class="certificate__title">Google Data Analytics- Coursera</p><br>
+                    </div>
+                    
+                    <div>
+                            <img src="assets/img/nptel.JPG" alt="Certificate Thumbnail" style="height: 90%;" class="certificate__thumbnail">
+                            <p class="certificate__title">Privacy and Security in Online Social Media- NPTEL</p><br>
+                    </div>
+                    <div>
+                        <img src="assets/img/hackerrank.JPG" style="height: 90%;" alt="Project Screenshot">
+                        <p class="certificate__title">Java Basic- HackerRank</p> <br>
+                    </div>
+                    <div>
+                        <img src="assets/img/introcybersecurity.JPG" style="height: 90%;" alt="Project Screenshot">
+                        <p class="certificate__title">Introduction to CyberSecurity- CISCO</p><br> 
+                    </div>
+                    <div>
+                       <a href="https://developers.google.com/profile/u/keerthanasivakumar"> <img src="assets/img/androidbasics.JPG" style="height: 90%;" alt="Project Screenshot"></a>
+                        <p class="certificate__title">Android Basics with compose - Google for Developers</p><br> 
+                    </div>
+                    <div>
+                        <img src="assets/img/reactjscourse.jpg" alt="Certificate Thumbnail" style="height: 100%;" class="certificate__thumbnail">
+                        <p class="certificate__title">React JS Course- 2023</p><br>
+                    </div>
+                    <div>
+                        <a href="https://simpli.app.link/WlAdC6UaYIb">
+                            <img src="assets/img/cloudcomputingintro.png" alt="Certificate Thumbnail" style="height: 100%;"  class="certificate__thumbnail">
+                        </a>
+                            <p class="certificate__title">Introduction to Cloud Computing- SimpliLearn SkillUp</p><br>
+                    </div>
+                </div>
+            </section>
+            <!--===== AREA OF INTREST =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Area Of Interest</h2>
+            
+                <div class="contact__container bd-grid">
+                    <div class="home__social">
+                        <ul type="square">
+                            <li class="home__social-icon" style="font-family: 'Courier New', Courier, monospace;"> Cloud Computing</li>
+                            <li class="home__social-icon" style="font-family: 'Courier New', Courier, monospace;"> Data Analysis</li>
+                            <li class="home__social-icon" style="font-family: 'Courier New', Courier, monospace;"> Front-End Development</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+            
+                <div class="contact__container bd-grid">
+                    <div class="home__social">
+                        <a href="mailto:keerthyy24@gmail.com" class="home__social-icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAUVJREFUSEvt1T0vREEUxvHfIiKhUItCoZAofQOJSkFCg0RFo0RCpaFQoNBQe+loJDolvoGodCQSX0DhdeTumtzsmrvLdm43OWee/3nOzJlb0uSv1GR9/4Bkh+MWDWMf3TjAKl6SCt8JY1hHO+ZwGUIx4AE9keAVJvGYgLRhE0tR3h3684D3KkJPGMd1DUgfTjBUJf5VfOygGiDkhDatYCcnEsCH6KoBLwwo7z/DNF6xi/lE6+oGBL3bzPVAgcNvCFBAt5KSBFwgVNqbUL3PnI3k8pKALWzgGKM1IOeYwRoW6wVsYznbtICw7sjWz5ngXrYOsV8Bgs4gTjPBCdxEFf8JIOh1Ztc0OIi/0M54kisz9tOgxS1K3Z5CDsIAteRsl88gBcg7ePt8+FrzT8URpiJIPQ5iQBAPN282D0hV2VD8/5eZbNsHnRQ+GcOlqXcAAAAASUVORK5CYII="/></a>
+                        <a href="http://www.linkedin.com/in/keerthana-sivakumar-060a2322b" class="home__social-icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAShJREFUSEvt1U0rRkEYxvHfQykrsrFSXoqFKFl5KQsfQ76AslA2VvZKSfkG8jFkIUXWkuRtZaVsWCg0NUfTOFHPeLJg6tQ953Rf/3uue2ZOQ4tHo8X66gCDeMXNT8BzwDaWo/AmVkshKWAE55lgP25LIN8BBkqtyi3awVKseAsrJdWH3LomD8cmX5aK1wGm0RGFn3Ec4wl0xfgJJ+jBLMbQjj18KipfwT16o9AVhmJ8iJkYX2A9Cqb5YWuvYSNdeTOAB3TGp87FeexXH5oBVLkBdIdxtCWkYNVCKWAXi1FkDgcJ4AyjpYBwKEMvqhFW0hcnj+guBYSd9pIATjGZzD+s/6oH1wgXXxjpLgrz4PlbIniEqX9AddD+uEV1R7/o3a/89IsqzpPfAXF0UxkpbL/qAAAAAElFTkSuQmCC"/></a>
+                        <a href="https://github.com/keerthana-kandhalu" class="home__social-icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAjBJREFUSEu11UnIjlEUB/DfJ7IhCyRZosxFslCKKGFjKEOKEjKlJGOJZAglkiHsCCXDhh0LC5SIjEWysDAkC1KIPOfrvnW/53uHx+I7m/e99/7P/Z9z7jn/p00XW1sX368VQQ/MxgyMxlDafd7hCW4W+1fwu1GgzQim4SSGtMjyLVbiVj1cI4It2J+irVLFv9iKQ2VwPYLNOFDl1jqYDTiS75cJpqRUYz/quwyrsQPd8CbVezgi6n04gWOYl/Ym4W6NJCfoiecYnA53Y2f6H+/wEd/SuhcG4nVab8fe9P8FxhRB/Yl1TrAAl7L0ItVIuYodxKYMOCtVoAPB+SKixRloIu5VuT1F/DgL+DjWlTOI8ozI0hxZ8fIa7CHGpcWDIoMJZYJP6J8A14tBmvOfBBewKPl8Qb8ywYdisAYkwG1M/U+CG5iZfL6jd5ngEcYmQHRL32YSUCIPSfmMPmn/FaKVOzzyGSzPHFfgbMUsAns6w57DkjJB1PwqviJSjD6P8Q89+tGAKOZhbRq4GMSazcflMkHMRHTSoKI9p2MVluJX6umF+JluiJJcS7juJfKXGJWmupNcz03y+x7j0+BNTlmsKV10EUFatqhEdGG71RO7o1if9GdPkzfYlUlJDXa4kJONuU8juQ5xCy26U4jYUzzDqRJZnAeuZqHCleS65hCqGHoU0xnyHQ+eWyjpNtxPmhW/nazVJzPO45MZMh2Z5DYs9Xo8dkNrRdDMt9JZlxP8A6W4YxlKv0WFAAAAAElFTkSuQmCC"/></a>
+                    </div>
+                </div>
+            </section>
+            
+            
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Keerthana</p>
+            <div class="contact__container bd-grid">
+                <div class="home__social">
+                    <a href="mailto:keerthyy24@gmail.com" class="home__social-icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVpJREFUSEvtlT8vREEUxX8HEQmFWhQKhUTpG0hUCpvQIFHRKJFQaSgUVqGh9qejkeiU+Aai0pFIfAEFe7kyuxkvz87bJ9vttPfO+c05c+c90ealNuvTASQTbkRkZpPAMTAInABbkj6SCqHBzGaAHaAXWJZ066UY8AIMRYJ3wJyk12YQM+sB9oD1qO9J0mgWYDlCb0BF0n0exMxGgAtgIluX9HP42EEewHs8pk1JB7GImVWAU2AgD94KoL7/ClgAPoFDYKVZdGUArvcYXI+lLr8sIKXbqBcB3AB+0uGE6nNwNhX3FQHsA7vAOTD9B+QaWAS2gbVWAVVJG77JzFaB6ve89wWRdxeUdBTqXisPCCLjwGUAzEp6qJ/YzP4PCJB+H1NJ7qCxzMzjjF8yRe6gEVFqdIo68AfUFYm1Asg6qEnqzn4qzoD5CFIWUPPJk7T0C5CKoWy988tMJvcFeW2SGSiKokAAAAAASUVORK5CYII="/></a>
+                    <a href="http://www.linkedin.com/in/keerthana-sivakumar-060a2322b" class="home__social-icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAUJJREFUSEvtlc0qRlEUhp+HUkZkYqT8FANRMvJTBi5DbkAZKBMjc6Wk3IFchgykyFiS/I2MlAkDZbG1v6/jfKKcjwm7dp2zdvt91nrXPvvIDw9/WJ8GQET0A8/qVTPg7wARsQksZuF1dbkqpA6IiCHgtCTYq15XgXwF6KtqVdmiLWAhZ7yhLlXJPu39qMmDucnnVcUbABExCbRl4Uf1MD1HxBjQkeMP6tHrgegCpoERoBXYURuSKlt0C3RnoQt1IAP2gakcP3tlribBkgPPwIq6Vqz8O4A7oD3Pj1ycVXdrC98B1PYm0A0wCrQUSMmquaqAbXU+2zcD7BUAJ+pwVcCQmnrxNiIiVdKTX+/VzqqANvWpADgGxuuiWrf+sx5cquniSxkWT1EKtahRABwAE/+A2of2ly1qxu1Z1vj9n36zq3gBLPzRGctIENYAAAAASUVORK5CYII="/></a>
+                    <a href="https://github.com/keerthana-kandhalu" class="home__social-icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAm9JREFUSEvFlU2IjlEUx39/kQ1ZIMkS5XOKZKGmiBI2hmKkKBn5Sk0yPko0+WgojeQj7AglzIYdCwuUiHyWSRYWPposTApxPGe6z3TfO8/7zjOLydm87z33f+7/nnPP+T9ikE2DfD41CcxsGLAcWALMBCZDT8wH4DlwJ/PfkPS72kWrEpjZIuAsMKmfLN8DmyTdLcIVEpjZbuBouG2ZKv4F9kg6noL7EJhZC9BW5tQCTLOk9thfQWBmCwBP1f1e3w3AFmA/MAToBLzeUwG/9RHgDHAKWBl89ZIe5CS9BGY2HHgFTAybrZIO+H8z83f4LOl7WI8Axkt6F9b7gMMh7jVQJ+mPr2OC1cC1KL12Sc1lSmVmx4BdEXaZJK9ABcFlYG0EmifpYUmCuqydn0XnnZa0PSXw8kzL05Q0vczhOcbMngCzw/pxlsHclOALMDYAOiQ1DJDgCrAmxHRJGpMSfMoGa1wA3JO0cIAEt4GlIaZb0siU4CkwKwC8W0bXkoCYPEjKV2BU8L+V5K1c8cgXgI1RYJOki2WyMLMm4HyEvSRpXUrgNb8JfAO6vc99/F2PJP0oIjIzn4dtYeB8EHNblTXJ9ZTAZ8I7aQKwGNgMrAd+halulPTTg0JJbgXc0IT8DTBDkk96pVyb2QqX36xUH4E5YfDmhyy2JnW/CjQWZNYgqSP3F4ndSWCH64+kQ9XewMwOZsn0SElkJzI52Rk7qsm1i1srcD8TsRfAS0nnkgx833G5tZSS6xxtZvWAS69PZ5skf/BeMzNX0r3AI8Bl2n/7WH+fTN/3T2anJM8kJpjisi3JH7uq/d+Pfq2bld37B8MT0hliYf0NAAAAAElFTkSuQmCC"/></a>
+                </div>
+            </div>
+            <p class="footer__copy">&#169; All rigths reserved</p>
+        </footer>
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
